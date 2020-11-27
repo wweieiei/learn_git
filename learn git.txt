@@ -1,7 +1,18 @@
 git clone https://github.com/wweieiei/learn_git.git
-
+git init
 git add
+git add .
 git status
-git commit
+git commit -m ""
 git push
 git pull
+
+
+ssh-add ~/.ssh/key1
+
+git push origin master
+
+#set remote repository
+git remote add origin https://github.com/wweieiei/learn_git.git
+#check remote repository set up
+git remote -v
