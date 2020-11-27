@@ -6,7 +6,9 @@ git status
 git commit -m ""
 git push
 git pull
-
+git branch
+#creating a new branch, feature here is the new branch name
+git checkout -b feature
 
 ssh-add ~/.ssh/key1
 
@@ -16,3 +18,5 @@ git push origin master
 git remote add origin https://github.com/wweieiei/learn_git.git
 #check remote repository set up
 git remote -v
+
+git diff
